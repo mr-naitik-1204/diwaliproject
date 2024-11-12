@@ -17,7 +17,7 @@ import { styled } from '@mui/material/styles';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import SettingsIcon from '@mui/icons-material/Settings'; // Import the Settings Icon
 
-const pages = ['Home', 'Pages', 'Women', 'Men', 'Blog'];
+const pages = ['Home', 'Pages', 'Women', 'Men','Children', 'Blog'];
 
 const Search = styled('div')(({ theme }) => ({
     position: 'relative',
