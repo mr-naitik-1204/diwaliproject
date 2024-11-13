@@ -16,8 +16,31 @@ import InputBase from '@mui/material/InputBase';
 import { styled } from '@mui/material/styles';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import SettingsIcon from '@mui/icons-material/Settings'; // Import the Settings Icon
+import { Link } from 'react-router-dom';
 
-const pages = ['Home', 'Pages', 'Women', 'Men','Children', 'Blog'];
+// const pages = ['Home','Women', 'Men','Children', 'contect'];
+const pages = [
+    {
+        name: "Home",
+        path: "/"
+    },
+    {
+        name:"Women",
+        path:"/"
+    },
+    {
+        name: "Men",
+        path: "/"
+    },
+    {
+        name: "Children",
+        path: "/"
+    },
+    {
+        name: "contect",
+        path: "/"
+    },
+]
 
 const Search = styled('div')(({ theme }) => ({
     position: 'relative',
@@ -105,8 +128,8 @@ function Nav() {
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     {/* Logo for larger screens */}
-                    <Box sx={{ display: { xs: 'none', md: 'flex' }, flexGrow: 1 }}>
-                        <img src="../logo.png" alt="Logo" width="110px" />
+                    <Box sx={{ display: { xs: 'none', md: 'flex' }, flexGrow: 1, cursor: "pointer" }}>
+                        <img src="../logo222.png" alt="Logo" width="110px" />
                     </Box>
 
                     {/* Mobile menu button */}
@@ -119,7 +142,7 @@ function Nav() {
                             onClick={handleOpenNavMenu}
                             color="inherit"
                         >
-                            <MenuIcon sx={{ color: "#f97a15" }} />
+                            <MenuIcon sx={{ color: "white" }} />
                         </IconButton>
                     </Box>
 
@@ -134,17 +157,20 @@ function Nav() {
                         onClose={handleCloseNavMenu}
                     >
                         {pages.map((page) => (
-                            <MenuItem key={page} onClick={handleCloseNavMenu}>
-                                <Typography
-                                    sx={{
-                                        color: "#f97a15",  // Set menu item text color to white
-                                        fontSize: "1.2rem",
-                                        fontWeight: "700",
-                                        '&:hover': { color: "#F97A15" },
-                                    }}
-                                >
-                                    {page}
-                                </Typography>
+                            <MenuItem sx={{textDecoration:"none"}} key={page.name} onClick={handleCloseNavMenu}>
+                                <Link to={page.path} style={{textDecoration:"none"}}  >
+                                    <Typography
+                                        sx={{
+                                            color: "black",  // Set menu item text color to white
+                                            fontSize: "1.2rem",
+                                            fontWeight: "700",
+                                            '&:hover': { color: "black" },
+                                            textDecoration:"none"
+                                        }}
+                                    >
+                                        {page.name}
+                                    </Typography>
+                                </Link>
                             </MenuItem>
                         ))}
                     </Menu>
@@ -152,22 +178,25 @@ function Nav() {
                     {/* Desktop Menu */}
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: "space-evenly" }}>
                         {pages.map((page) => (
-                            <Button
-                                key={page}
-                                onClick={handleCloseNavMenu}
-                                sx={{
-                                    my: 2,
-                                    color: 'white', // Set button text color to white
-                                    fontWeight: "800",
-                                    display: 'block',
-                                    fontSize: "1rem",
-                                    '&:hover': {
-                                        color: "#F97A15",
-                                    },
-                                }}
-                            >
-                                {page}
-                            </Button>
+                            <Link to={page.path} style={{textDecoration:"none"}}>
+                                <Button
+                                    key={page.name}
+                                    onClick={handleCloseNavMenu}
+                                    sx={{
+                                        my: 2,
+                                        color: 'white', // Set button text color to white
+                                        fontWeight: "800",
+                                        display: 'block',
+                                        fontSize: "1rem",
+                                        // '&:hover': {
+                                        //     color: "#F97A15",
+                                        // },
+                                    
+                                    }}
+                                >
+                                    {page.name}
+                                </Button>
+                            </Link>
                         ))}
                     </Box>
 
@@ -209,7 +238,7 @@ function Nav() {
 
                             }}
                         />
-                        <IconButton onClick={toggleSearchBar} sx={{ color: "#F97A15" }}>
+                        <IconButton onClick={toggleSearchBar} sx={{ color: "white" }}>
                             <CloseIcon />
                         </IconButton>
                     </Box>
@@ -217,7 +246,7 @@ function Nav() {
                     {/* Desktop Search Bar */}
                     <Search sx={{ display: { xs: 'none', md: 'flex' } }}>
                         <SearchIconWrapper>
-                            <SearchIcon sx={{ color: '#F97A15' }} />
+                            <SearchIcon sx={{ color: 'black' }} />
                         </SearchIconWrapper>
                         <StyledInputBase
                             value={searchQuery}
@@ -235,27 +264,16 @@ function Nav() {
                             sx={{
                                 color: 'white',  // Set Settings icon color to white
                                 fontSize: "1.5rem",
-                                '&:hover': { color: "#F97A15" },
+                                // '&:hover': { color: "#F97A15" },
                             }}
                         >
                             <SettingsIcon />
                         </IconButton>
 
-                        <Menu
-                            id="menu-user"
-                            anchorEl={anchorElUser}
-                            anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
-                            transformOrigin={{ vertical: 'top', horizontal: 'right' }}
-                            open={Boolean(anchorElUser)}
-                            onClose={handleCloseUserMenu}
-                        >
-                            <MenuItem onClick={handleCloseUserMenu}>Login</MenuItem>
-                            <MenuItem onClick={handleCloseUserMenu}>Register</MenuItem>
-                        </Menu>
 
                         {/* Cart Icon */}
                         <Tooltip title="My Cart">
-                            <IconButton sx={{ color: 'white', backgroundColor: "#F97A15", '&:hover': { backgroundColor: "#F97B16" } }}>
+                            <IconButton sx={{ color: 'black', backgroundColor: "white", '&:hover': { backgroundColor: "white" } }}>
                                 <ShoppingCartIcon />
                             </IconButton>
                         </Tooltip>

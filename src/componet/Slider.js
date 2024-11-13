@@ -35,7 +35,7 @@ function Slider() {
 
     return (
         <>
-            <Box sx={{ background: "#fb892d", py: 4 }}>
+            <Box sx={{ background: "white", py: 4 }}>
                 <Container>
                     <Box
                         sx={{

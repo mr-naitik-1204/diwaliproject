@@ -4,7 +4,7 @@ import React from 'react';
 function Sec3() {
   const latestCollectionItems = [
     {
-      img: 'https://i.pinimg.com/originals/ec/7c/05/ec7c05cb5810ba81254adc66569aec52.png', 
+      img: 'https://static.wixstatic.com/media/c837a6_f8d49ec34c8a4f95890362cc7a53f89b~mv2.jpg/v1/fill/w_215,h_287,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_f8d49ec34c8a4f95890362cc7a53f89b~mv2.jpg', 
       brand: 'BRAND:GEEK',
       title: 'Viscose-Cashmere Scarf',
       price: '$450.00',
@@ -13,7 +13,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://3.bp.blogspot.com/-62TdixssPwU/VSiEXeHV7-I/AAAAAAABBno/lyyqmfxcAt8/s1600/what%2Bis%2Bhis%2Bname.jpg', 
+      img: 'https://static.wixstatic.com/media/c837a6_8ea5cc0a06664ef6a3c1cf64e1cb5a27~mv2.jpg/v1/fill/w_215,h_287,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_8ea5cc0a06664ef6a3c1cf64e1cb5a27~mv2.jpg', 
       brand: 'BRAND:GEEK',
       title: 'Woolen Throw Blanket',
       price: '$320.00',
@@ -22,16 +22,16 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://i.pinimg.com/736x/21/3a/af/213aafba78f2ee45b974f06c67ccee09--male-models-poses-studio-poses.jpg', 
+      img: 'https://static.wixstatic.com/media/c837a6_ce32dd298b274ba280efa267e075be21~mv2.jpg/v1/fill/w_215,h_287,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_ce32dd298b274ba280efa267e075be21~mv2.jpg', 
       brand: 'BRAND:GEEK',
       title: 'Silk Evening Gown',
       price: '$1,200.00',
       rating: 4.5,
       sale: '5%',
-      isNew: false
+      isNew: true
     },
     {
-      img: 'https://i.pinimg.com/736x/44/56/aa/4456aa4e1722a18e989c56e5bdfc80ef.jpg', 
+      img: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSy9Gl05VDPYg1y0VPOag7iL7AAiTM4-1dhPCWnp9da4vMkPK_OUD3Fy_J9aLZgX2A1PCIL76O4ZNGl4CgzrmSIg3Azpx1n62tYF-fm0ml7Ecmktc8BSpNlBQ&usqp=CAE', 
       brand: 'BRAND:GEEK',
       title: 'Leather Handbag',
       price: '$950.00',
@@ -40,16 +40,16 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://i.pinimg.com/originals/66/e4/55/66e455bc6096c813c5e2d0913f0bac1f.jpg', 
+      img: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ1PpG61d9JO84B0LtU2qHxoQFsYN0kwwr3Hlxr5C7xaw7FsGQJdjv5V7CqdH2eKaf2i2eTm-bJq3X7-LST598VkOMTSSs4QPGiMRB72WhwN-EBkEKGgGhnmw&usqp=CAE', 
       brand: 'BRAND:GEEK',
       title: 'Linen Summer Dress',
       price: '$300.00',
       rating: 3.8,
       sale: '15%',
-      isNew: false
+      isNew: true
     },
     {
-      img: 'https://cdn1.ozone.ru/s3/multimedia-9/6324553257.jpg', 
+      img: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQLZw-SFMPT2aIq7cARTiaBz6oyUrVlUtAGkEmvxy00qNzRcCD_DIkwXzOlZh0h5zI-TgIfNYUayQNGU5Gshtv8uoNhZB_P9KqAaL8fwJUBSsNxwfkXXChh3g&usqp=CAE', 
       brand: 'BRAND:GEEK',
       title: 'Winter Wool Coat',
       price: '$700.00',
@@ -58,7 +58,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://i.pinimg.com/736x/49/5a/7d/495a7de7da8964699bad6f6b9c10e71c.jpg', 
+      img: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSCR3nymeAFzC4R0OWjGLiZxSg_HyZy0IjYKBIwSxzWzFtPgblsh7Hd2Oew8hIQrJe2Heuiu2AUnowQQCWcMlbqQrVNwE1Lktb5u_2ibz9oR6tesKbkbT6T4w', 
       brand: 'BRAND:GEEK',
       title: 'Round Neck Sweater',
       price: '$700.00',
@@ -67,7 +67,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://main-cdn.sbermegamarket.ru/big2/hlr-system/-40/426/792/632/420/5/100050446514b0.jpg', 
+      img: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQfj-BKZKTBcEWTszvOhSzQWwc6kvpWtM_F-kZrtAX3FvUCB3q8Yc4HQkiAqNhNFjjvGnls_sv1BX5gX3m4AIdaCjgrg5Mejka6X6vU4lJB0n5wCe6VBUy1dQ', 
       brand: 'BRAND:GEEK',
       title: 'Faxon Canvas Low-Top Sneaker',
       price: '$450.00',
@@ -76,7 +76,7 @@ function Sec3() {
       isNew: true
     },
     {
-        img: 'https://www.careyfashion.com/wp-content/uploads/2016/12/jeans-pants-2.jpg', 
+        img: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRM7MvQvyLWcrK5AC-tRUqiy340zxPTYx20KmIhNMOcovgk2ykoeRXN3rzp_gS8xlhMiGsx5xtUmaAEXQQGlfLsnOuAZGucRR0s9XouLbrJtqlDwhOyAG8pgw', 
         brand: 'BRAND:GEEK',
         title: 'Round Neck Sweater',
         price: '$700.00',
@@ -85,7 +85,7 @@ function Sec3() {
         isNew: true
       },
       {
-        img: 'https://i.pinimg.com/originals/89/e6/e6/89e6e6d5ea02baaae4d6d7d44575f45e.jpg', 
+        img: 'https://images.meesho.com/images/products/142474229/lfoq1_1200.jpg', 
         brand: 'BRAND:GEEK',
         title: 'Faxon Canvas Low-Top Sneaker',
         price: '$450.00',
@@ -284,6 +284,7 @@ function Sec3() {
       },
       {
         img: 'https://i.pinimg.com/originals/9c/83/ab/9c83ab87aab2650141f7eeb10c69116c.jpg',
+        brand: 'BRAND:GEEK',
         title: 'Fleece Sweatshirt',
         price: '$600.00',
         rating: 4.6,
@@ -302,55 +303,69 @@ function Sec3() {
   ];
 
   return (
-    <Box sx={{ py: 5, background: "#FB892D" }}>
-      <Grid container spacing={6} justifyContent="center">
-        {latestCollectionItems.map((item, index) => (
-          <Grid item xs={12} sm={6} md={4} key={index}>
-            <Card
+    <Box sx={{ py: 5, background: "white" }}>
+    <Grid container spacing={6} justifyContent="center">
+      {latestCollectionItems.map((item, index) => (
+        <Grid item xs={12} sm={6} md={4} key={index}>
+          <Card
+            sx={{
+              display: 'flex',
+              flexDirection: 'column',
+              maxWidth: 345,
+              margin: "auto",
+              backgroundColor: "black",
+              color: "white",
+              borderRadius: '15px',
+              boxShadow: '0 6px 15px rgba(0,0,0,0.2)',
+              // transition: 'transform 0.3s ease',
+              // '&:hover': {
+              //   transform: 'scale(1.05)', // Scaling the entire card on hover
+              // }
+            }}
+          >
+            <CardMedia
+              component="img"
+              image={item.img}
+              alt={item.title}
               sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                maxWidth: 345,
-                height:"430px",
-                margin: "auto",
-                backgroundColor:"black",
-                color:"white",
-                borderRadius: '15px',
-                boxShadow: '0 6px 15px rgba(0,0,0,0.2)',
-                transition: 'transform 0.3s ease',
+                width: '100%',
+                height: '400px', // Fixed height for the image
+                objectFit: 'cover', // Ensures image covers the area without stretching
+                borderTopLeftRadius: '15px',
+                borderTopRightRadius: '15px',
+                transition: 'transform 0.3s ease', // Smooth transition on hover
                 '&:hover': {
-                  transform: 'scale(1.05)',
+                  transform: 'scale(1.1)', // Image zooms in when hovered
                 }
               }}
-            >
-              <CardMedia
-                component="img"
-                height="250"  // Set a fixed height for the image
-                image={item.img}
-                alt={item.title}
-                sx={{ objectFit: 'cover' }}  // Ensure the image covers the area without stretching
-              />
-              <CardContent sx={{ flexGrow: 1 }}>
-                {item.isNew && <Typography sx={{ color: '#2ECC71', fontWeight: 'bold' }}>NEW</Typography>}
-                <Typography sx={{ color: '#E74C3C', fontWeight: 'bold' }}>SALE! {item.sale}</Typography>
-                <Typography variant="body2" sx={{ color: '#888' }}>
-                  {item.brand}
-                </Typography>
-                <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
-                  {item.title}
-                </Typography>
-                <Typography variant="h5" sx={{ color: '#E74C3C' }}>
-                  {item.price}
-                </Typography>
-                <Typography>
-                  {'★'.repeat(Math.floor(item.rating)) + (item.rating % 1 ? '½' : '')} ★★★☆☆
-                </Typography>
-              </CardContent>
-            </Card>
-          </Grid>
-        ))}
-      </Grid>
-    </Box>
+            />
+            <CardContent sx={{ flexGrow: 1 }}>
+              {item.isNew && (
+                <Typography sx={{ color: '#2ECC71', fontWeight: 'bold' }}>NEW</Typography>
+              )}
+              <Typography sx={{ color: '#E74C3C', fontWeight: 'bold' }}>
+                SALE! {item.sale}
+              </Typography>
+              <Typography variant="body2" sx={{ color: '#888' }}>
+                {item.brand}
+              </Typography>
+              <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
+                {item.title}
+              </Typography>
+              <Typography variant="h5" sx={{ color: '#E74C3C' }}>
+                {item.price}
+              </Typography>
+              <Typography>
+                {'★'.repeat(Math.floor(item.rating)) + (item.rating % 1 ? '½' : '')} ★★★☆☆
+              </Typography>
+            </CardContent>
+          </Card>
+        </Grid>
+      ))}
+    </Grid>
+  </Box>
+  
+  
   );
 }
 

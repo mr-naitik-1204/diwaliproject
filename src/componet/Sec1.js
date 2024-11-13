@@ -24,7 +24,7 @@ function Sec1() {
 
     return (
         <>
-            <Box sx={{ py: 5,backgroundColor:"black" }}>
+            <Box sx={{ py: 3,backgroundColor:"black" }}>
                 <Typography
                     variant="h4"
                     sx={{
@@ -49,7 +49,7 @@ function Sec1() {
                                     boxShadow: '0 6px 15px rgba(0,0,0,0.2)',
                                     transition: 'transform 0.3s ease',
                                     '&:hover': {
-                                        transform: 'scale(1.09)',
+                                        transform: 'scale(1.05)',
                                     }
                                 }}
                             >
