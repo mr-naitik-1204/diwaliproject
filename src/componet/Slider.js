@@ -8,30 +8,30 @@ function Slider() {
 
     const slides = [
         {
-          img: 'https://img.freepik.com/free-psd/black-friday-banner-template_23-2149094785.jpg?w=900&t=st=1727413218~exp=1727413818~hmac=664b5e9b230374a60e0c6faef3872d49cdfef8ab118796104cbea46fbdb16779',
-          caption: 'Slide 1: Nature vs Synthetic'
+            img: 'https://img.freepik.com/free-psd/black-friday-banner-template_23-2149094785.jpg?w=900&t=st=1727413218~exp=1727413818~hmac=664b5e9b230374a60e0c6faef3872d49cdfef8ab118796104cbea46fbdb16779',
+            caption: 'Slide 1: Nature vs Synthetic'
         },
         {
-          img: 'https://img.freepik.com/free-psd/fashion-concept-banner-template-style_23-2148582738.jpg?t=st=1727413160~exp=1727416760~hmac=9d05d371ba236131afd0575150214001cbef31f2512ad463a6402b51048db262&w=740',
-          caption: 'Slide 2: Personal Shopper'
+            img: 'https://img.freepik.com/free-psd/fashion-concept-banner-template-style_23-2148582738.jpg?t=st=1727413160~exp=1727416760~hmac=9d05d371ba236131afd0575150214001cbef31f2512ad463a6402b51048db262&w=740',
+            caption: 'Slide 2: Personal Shopper'
         },
         {
-          img: 'https://img.freepik.com/free-psd/fashion-concept-horizontal-banner_23-2148582739.jpg',
-          caption: 'Slide 3: Exploring New Ideas'
+            img: 'https://img.freepik.com/free-psd/fashion-concept-horizontal-banner_23-2148582739.jpg',
+            caption: 'Slide 3: Exploring New Ideas'
         },
         {
-          img: 'https://img.freepik.com/free-psd/natural-cosmetics-template-banner_23-2148671399.jpg?w=900&t=st=1727411418~exp=1727412018~hmac=c96d9863623a6c93fc8bb0c1fc2ef5b320eb424092a9c02563117c3d4c26edee',
-          caption: 'Slide 4: Minimalism'
+            img: 'https://img.freepik.com/free-psd/natural-cosmetics-template-banner_23-2148671399.jpg?w=900&t=st=1727411418~exp=1727412018~hmac=c96d9863623a6c93fc8bb0c1fc2ef5b320eb424092a9c02563117c3d4c26edee',
+            caption: 'Slide 4: Minimalism'
         },
         {
-          img: 'https://img.freepik.com/free-psd/banner-fashion-store-ad-template_23-2148675209.jpg?ga=GA1.1.439435672.1716038743',
-          caption: 'Slide 5: Urban Adventures'
+            img: 'https://img.freepik.com/free-psd/banner-fashion-store-ad-template_23-2148675209.jpg?ga=GA1.1.439435672.1716038743',
+            caption: 'Slide 5: Urban Adventures'
         },
         {
-          img: 'https://img.freepik.com/free-psd/beautiful-model-banner-template_23-2148986055.jpg?w=900&t=st=1727412603~exp=1727413203~hmac=9973d80ed696d01ad7f8ddb179a0c897696b86f9864750fd30d610c876a6720f',
-          caption: 'Slide 6: Modern Living'
+            img: 'https://img.freepik.com/free-psd/beautiful-model-banner-template_23-2148986055.jpg?w=900&t=st=1727412603~exp=1727413203~hmac=9973d80ed696d01ad7f8ddb179a0c897696b86f9864750fd30d610c876a6720f',
+            caption: 'Slide 6: Modern Living'
         }
-      ];
+    ];
 
     return (
         <>
@@ -61,7 +61,7 @@ function Slider() {
                             transitionTime={1000}
                             emulateTouch={true}
                             renderArrowPrev={(clickHandler, hasPrev) => (
-                                <IconButton 
+                                <IconButton
                                     sx={{
                                         position: 'absolute',
                                         top: '50%',
@@ -109,18 +109,20 @@ function Slider() {
                         >
                             {slides.map((slide, index) => (
                                 <Box key={index} sx={{ position: 'relative' }}>
-                                    <img
-                                        src={slide.img}
-                                        alt={`Slide ${index + 1}`}
-                                        style={{
-                                            width: '100%',
-                                            height: 'auto',
-                                            objectFit: 'cover',
-                                            filter: 'brightness(90%) contrast(105%)',
-                                            borderRadius: '20px',
-                                            transition: 'transform 0.4s ease',
-                                        }}
-                                    />
+                                    <Box>
+                                        <img
+                                            src={slide.img}
+                                            alt={`Slide ${index + 1}`}
+                                            style={{
+                                                width: '100%',
+                                                height: 'auto',
+                                                objectFit: 'cover',
+                                                filter: 'brightness(90%) contrast(105%)',
+                                                borderRadius: '20px',
+                                                transition: 'transform 0.4s ease',
+                                            }}
+                                        />
+                                    </Box>
                                     <Box
                                         sx={{
                                             position: 'absolute',

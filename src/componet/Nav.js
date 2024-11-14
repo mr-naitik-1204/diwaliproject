@@ -25,20 +25,20 @@ const pages = [
         path: "/"
     },
     {
-        name:"Women",
-        path:"/"
+        name: "women",
+        path: "/women"
     },
     {
         name: "Men",
-        path: "/"
+        path: "/men"
     },
     {
         name: "Children",
-        path: "/"
+        path: "/children"
     },
     {
         name: "contect",
-        path: "/"
+        path: "/contect"
     },
 ]
 
@@ -128,9 +128,11 @@ function Nav() {
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     {/* Logo for larger screens */}
-                    <Box sx={{ display: { xs: 'none', md: 'flex' }, flexGrow: 1, cursor: "pointer" }}>
-                        <img src="../logo222.png" alt="Logo" width="110px" />
-                    </Box>
+                    <Link to={"/"}>
+                        <Box sx={{ display: { xs: 'none', md: 'flex' }, flexGrow: 1, cursor: "pointer" }}>
+                            <img src="../logo222.png" alt="Logo" width="110px" />
+                        </Box>
+                    </Link>
 
                     {/* Mobile menu button */}
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -157,15 +159,15 @@ function Nav() {
                         onClose={handleCloseNavMenu}
                     >
                         {pages.map((page) => (
-                            <MenuItem sx={{textDecoration:"none"}} key={page.name} onClick={handleCloseNavMenu}>
-                                <Link to={page.path} style={{textDecoration:"none"}}  >
+                            <MenuItem sx={{ textDecoration: "none" }} key={page.name} onClick={handleCloseNavMenu}>
+                                <Link to={page.path} style={{ textDecoration: "none" }}  >
                                     <Typography
                                         sx={{
                                             color: "black",  // Set menu item text color to white
                                             fontSize: "1.2rem",
                                             fontWeight: "700",
                                             '&:hover': { color: "black" },
-                                            textDecoration:"none"
+                                            textDecoration: "none"
                                         }}
                                     >
                                         {page.name}
@@ -178,7 +180,7 @@ function Nav() {
                     {/* Desktop Menu */}
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: "space-evenly" }}>
                         {pages.map((page) => (
-                            <Link to={page.path} style={{textDecoration:"none"}}>
+                            <Link to={page.path} style={{ textDecoration: "none" }}>
                                 <Button
                                     key={page.name}
                                     onClick={handleCloseNavMenu}
@@ -191,7 +193,7 @@ function Nav() {
                                         // '&:hover': {
                                         //     color: "#F97A15",
                                         // },
-                                    
+
                                     }}
                                 >
                                     {page.name}
