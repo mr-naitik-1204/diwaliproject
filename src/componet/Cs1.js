@@ -1,11 +1,10 @@
-import { Box, Button, Grid, Typography } from '@mui/material'
+import { Box, Button, Typography } from '@mui/material'
 import React from 'react'
 
-function Ms1() {
+function Cs1() {
   return (
     <>
-
-      <Box
+     <Box
         sx={{
           background: "linear-gradient(90deg, rgba(0, 0, 0, 0.8)  0%, rgba(255,255,255,1) 100%)",
           position: "relative",
@@ -28,7 +27,7 @@ function Ms1() {
 
         <Box mb={{ xs: 2, md: 0 }}>
           <img
-            src="./m1.png"
+            src="./c1.png"
             width="280px"
             alt="Icon Left"
             style={{
@@ -73,7 +72,7 @@ function Ms1() {
 
         <Box mt={{ xs: 2, md: 0 }} sx={{ mb: 0 }}>
           <img
-            src="./m2.png"
+            src="./c2.png"
             width="390px"
           alt="Icon Right"
           style={{
@@ -88,4 +87,4 @@ function Ms1() {
   )
 }
 
-export default Ms1
+export default Cs1

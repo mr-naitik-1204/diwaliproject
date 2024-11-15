@@ -10,7 +10,7 @@ function Ws3() {
 
                         <Grid item xs={12} md={6}>
                             <Typography variant="h4" sx={{ fontWeight: 'bold', mb: 2 }}>
-                                Register as a fashion hub Supplier
+                                Register as a thread & trend Supplier
                             </Typography>
                             <Typography variant="subtitle1" sx={{ mb: 2 }}>
                                 Sell your products to crores of customers at 0% commission

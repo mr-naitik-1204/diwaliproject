@@ -1,11 +1,10 @@
 import { Box, Button, Container, Grid, Typography } from '@mui/material'
 import React from 'react'
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
-function Ms3() {
+function Cs3() {
   return (
     <>
-    
-    <Container>
+     <Container>
                 <Box sx={{ backgroundColor: '#1e1e1e', color: '#fff', p: 3, mt: 5, borderRadius: 2 }}>
                     <Grid container spacing={3} alignItems="center">
 
@@ -48,7 +47,7 @@ function Ms3() {
                         <Grid item xs={12} md={6}>
                             <Box
                                 component="img"
-                                src="https://media.istockphoto.com/id/1346241020/photo/portrait-of-handsome-young-man-buying-clothes-in-the-store.jpg?s=612x612&w=0&k=20&c=PN4QH3fPEdt7GYF6ovVhRMUsOJ4HDsFMYTwQgzwDhfI="
+                                src="https://www.shutterstock.com/image-photo/kids-shopping-cute-little-girl-260nw-507776629.jpg"
                                 alt="Supplier"
                                 sx={{
                                     width: '100%',
@@ -60,9 +59,8 @@ function Ms3() {
                 </Box>
 
             </Container>
-
     </>
   )
 }
 
-export default Ms3
+export default Cs3

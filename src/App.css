@@ -1,0 +1,46 @@
+.custom-btn {
+    position: relative;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: black;
+    border: solid 4px white;
+    font-family: inherit;
+  }
+  
+  .default-btn, .hover-btn {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px 13px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  
+  .hover-btn {
+    position: absolute;
+    inset: 0;
+    background-color: black;
+    transform: translate(0%, 100%);
+  }
+  
+  .default-btn span {
+    color: hsl(0, 0%, 100%);
+  }
+  
+  .hover-btn span {
+    color: white;
+  }
+  
+  .custom-btn:hover .default-btn {
+    transform: translate(0%, -100%);
+  }
+  
+  .custom-btn:hover .hover-btn {
+    transform: translate(0%, 0%);
+  }
