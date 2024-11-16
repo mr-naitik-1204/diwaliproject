@@ -7,6 +7,7 @@ import Landing from './componet/Landing';
 import Women from './componet/Women';
 import Men from './componet/Men';
 import Children from './componet/Children';
+import Contect from './componet/Contect';
 
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
         <Route path="men" element={<Men />}>
         </Route>
         <Route path="children" element={<Children />}>
+        </Route>
+        <Route path="contect" element={<Contect />}>
         </Route>
       </Routes>
     </BrowserRouter>
