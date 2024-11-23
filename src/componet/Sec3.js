@@ -4,7 +4,7 @@ import React from 'react';
 function Sec3() {
   const latestCollectionItems = [
     {
-      img: 'https://static.wixstatic.com/media/c837a6_f8d49ec34c8a4f95890362cc7a53f89b~mv2.jpg/v1/fill/w_215,h_287,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_f8d49ec34c8a4f95890362cc7a53f89b~mv2.jpg',
+      img: 'https://addys.in/cdn/shop/products/InShot_20230405_184445071.jpg?v=1680702261&width=360',
       brand: 'BRAND:GEEK',
       title: 'Viscose-Cashmere Scarf',
       price: '$450.00',
@@ -13,7 +13,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://static.wixstatic.com/media/c837a6_8ea5cc0a06664ef6a3c1cf64e1cb5a27~mv2.jpg/v1/fill/w_215,h_287,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_8ea5cc0a06664ef6a3c1cf64e1cb5a27~mv2.jpg',
+      img: 'https://addys.in/cdn/shop/products/InShot_20230328_184630977.jpg?v=1687597311&width=360',
       brand: 'BRAND:GEEK',
       title: 'Woolen Throw Blanket',
       price: '$320.00',
@@ -22,7 +22,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://static.wixstatic.com/media/c837a6_ce32dd298b274ba280efa267e075be21~mv2.jpg/v1/fill/w_215,h_287,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_ce32dd298b274ba280efa267e075be21~mv2.jpg',
+      img: 'https://addys.in/cdn/shop/products/InShot_20230328_184456436.jpg?v=1680010517&width=360',
       brand: 'BRAND:GEEK',
       title: 'Silk Evening Gown',
       price: '$1,200.00',
@@ -31,7 +31,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSy9Gl05VDPYg1y0VPOag7iL7AAiTM4-1dhPCWnp9da4vMkPK_OUD3Fy_J9aLZgX2A1PCIL76O4ZNGl4CgzrmSIg3Azpx1n62tYF-fm0ml7Ecmktc8BSpNlBQ&usqp=CAE',
+      img: 'https://addys.in/cdn/shop/files/rn-image_picker_lib_temp_5ae80cf4-cef7-4854-87d3-8ac867b3a9b6.jpg?v=1716801583&width=360',
       brand: 'BRAND:GEEK',
       title: 'Leather Handbag',
       price: '$950.00',
@@ -40,7 +40,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ1PpG61d9JO84B0LtU2qHxoQFsYN0kwwr3Hlxr5C7xaw7FsGQJdjv5V7CqdH2eKaf2i2eTm-bJq3X7-LST598VkOMTSSs4QPGiMRB72WhwN-EBkEKGgGhnmw&usqp=CAE',
+      img: 'https://addys.in/cdn/shop/files/rn-image_picker_lib_temp_bf6e9cca-3e53-42ae-a5d3-c95f9cf7b5c3.jpg?v=1716800966&width=360',
       brand: 'BRAND:GEEK',
       title: 'Linen Summer Dress',
       price: '$300.00',
@@ -49,7 +49,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQLZw-SFMPT2aIq7cARTiaBz6oyUrVlUtAGkEmvxy00qNzRcCD_DIkwXzOlZh0h5zI-TgIfNYUayQNGU5Gshtv8uoNhZB_P9KqAaL8fwJUBSsNxwfkXXChh3g&usqp=CAE',
+      img: 'https://addys.in/cdn/shop/files/InShot-20241112_214107624.jpg?v=1731572259&width=360',
       brand: 'BRAND:GEEK',
       title: 'Winter Wool Coat',
       price: '$700.00',
@@ -58,7 +58,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSCR3nymeAFzC4R0OWjGLiZxSg_HyZy0IjYKBIwSxzWzFtPgblsh7Hd2Oew8hIQrJe2Heuiu2AUnowQQCWcMlbqQrVNwE1Lktb5u_2ibz9oR6tesKbkbT6T4w',
+      img: 'https://addys.in/cdn/shop/files/InShot_20230621_201203674.jpg?v=1688038848&width=360',
       brand: 'BRAND:GEEK',
       title: 'Round Neck Sweater',
       price: '$700.00',
@@ -67,7 +67,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQfj-BKZKTBcEWTszvOhSzQWwc6kvpWtM_F-kZrtAX3FvUCB3q8Yc4HQkiAqNhNFjjvGnls_sv1BX5gX3m4AIdaCjgrg5Mejka6X6vU4lJB0n5wCe6VBUy1dQ',
+      img: 'https://addys.in/cdn/shop/products/InShot_20230320_162119794.jpg?v=1688040671&width=360',
       brand: 'BRAND:GEEK',
       title: 'Faxon Canvas Low-Top Sneaker',
       price: '$450.00',
@@ -76,7 +76,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRM7MvQvyLWcrK5AC-tRUqiy340zxPTYx20KmIhNMOcovgk2ykoeRXN3rzp_gS8xlhMiGsx5xtUmaAEXQQGlfLsnOuAZGucRR0s9XouLbrJtqlDwhOyAG8pgw',
+      img: 'https://addys.in/cdn/shop/files/InShot_20230621_180222636.jpg?v=1688041027&width=360',
       brand: 'BRAND:GEEK',
       title: 'Round Neck Sweater',
       price: '$700.00',
@@ -85,7 +85,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://images.meesho.com/images/products/142474229/lfoq1_1200.jpg',
+      img: 'https://addys.in/cdn/shop/files/rn-image_picker_lib_temp_7e77754b-b46f-40a8-a7d8-39748f681e36.jpg?v=1697025965&width=360',
       brand: 'BRAND:GEEK',
       title: 'Faxon Canvas Low-Top Sneaker',
       price: '$450.00',
@@ -94,7 +94,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://lklassika.ru/pictures/product/big/5360_big.JPG',
+      img: 'https://addys.in/cdn/shop/files/rn-image_picker_lib_temp_82c1dd04-48f0-4583-901d-1befe5cb2028.jpg?v=1696514087&width=360',
       brand: 'BRAND:GEEK',
       title: 'Round Neck Sweater',
       price: '$700.00',
@@ -103,7 +103,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://lklassika.ru/pictures/product/big/5394_big.JPG',
+      img: 'https://addys.in/cdn/shop/files/rn-image_picker_lib_temp_8be25a63-7e51-4bb4-ac9a-e73da307fd51.jpg?v=1696497252&width=360',
       brand: 'BRAND:GEEK',
       title: 'Faxon Canvas Low-Top Sneaker',
       price: '$450.00',
@@ -112,7 +112,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://avatars.mds.yandex.net/i?id=c5ccf2214d8c3393ceb03509cbf79aa4_l-4829635-images-thumbs&ref=rim&n=13&w=800&h=800',
+      img: 'https://addys.in/cdn/shop/products/product5-2.jpg?v=1687597516&width=600',
       brand: 'BRAND:GEEK',
       title: 'Cozy Knit Sweater',
       price: '$720.00',
@@ -121,7 +121,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://avatars.mds.yandex.net/i?id=55ecc6a12bd1a5b0c75da713df110859_l-7761179-images-thumbs&ref=rim&n=13&w=800&h=800',
+      img: 'https://addys.in/cdn/shop/products/product6-2.jpg?v=1637600607&width=1100',
       brand: 'BRAND:GEEK',
       title: 'Chunky Knit Pullover',
       price: '$750.00',
@@ -130,7 +130,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://i.pinimg.com/originals/14/e3/1b/14e31b3abdbdd8acbf87764124a68934.jpg',
+      img: 'https://addys.in/cdn/shop/products/product17-2.jpg?v=1637693528&width=1100',
       brand: 'BRAND:GEEK',
       title: 'Wool Blend Sweater',
       price: '$690.00',
@@ -139,7 +139,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://i.pinimg.com/originals/1f/e6/15/1fe615ce0a956d31c7d24b0522b6f267.jpg',
+      img: 'https://addys.in/cdn/shop/products/product13-2.jpg?v=1688040702&width=1100',
       brand: 'BRAND:GEEK',
       title: 'Textured Fleece Sweater',
       price: '$680.00',
@@ -148,7 +148,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://us03-imgcdn.ymcart.com/57815/2021/06/15/e/6/e69867dcb6df26d8.jpg?x-oss-process=image/quality,Q_90/auto-orient,1/resize,m_lfit,w_500,h_500',
+      img: 'https://addys.in/cdn/shop/products/product32-2.jpg?v=1637694488&width=1100',
       brand: 'BRAND:GEEK',
       title: 'Cotton Knit Hoodie',
       price: '$650.00',
@@ -166,7 +166,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://www.dhresource.com/webp/m/0x0/f2/albu/g5/M01/74/55/rBVaI1l5UcaAXGwDAAKBozanJhI282.jpg',
+      img: 'https://notchabove.in/cdn/shop/files/selena3pieceset1_1296x.jpg?v=1703222773',
       brand: 'BRAND:GEEK',
       title: 'Soft Cashmere Sweater',
       price: '$800.00',
@@ -175,7 +175,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://media3.newlookassets.com/i/newlook/572235940D3.jpg?strip=true&qlt=80&w=800&h=900',
+      img: 'https://uptownie.com/cdn/shop/files/1_f1723ce6-dc02-4005-a0c8-bfe711c9d019_360x.png?v=1729930076',
       brand: 'BRAND:GEEK',
       title: 'Chunky Knit Pullover',
       price: '$750.00',
@@ -211,7 +211,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'http://www.apsraa.com/media/catalog/product/cache/1/image/800x900.44444444444/9df78eab33525d08d6e5fb8d27136e95/2/1/21_3.jpg',
+      img: 'https://uptownie.com/cdn/shop/files/4_8dd51c0c-dd44-49f4-9dcf-9aa246448c6b_360x.png?v=1729930075',
       brand: 'BRAND:GEEK',
       title: 'Classic Wool Pullover',
       price: '$750.00',
@@ -220,7 +220,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://cdn1.ozone.ru/s3/multimedia-x/6807246621.jpg',
+      img: 'https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/5/d5fdb19PCF25_1.jpg?rnd=20200526195200&tr=w-512',
       brand: 'BRAND:GEEK',
       title: 'Cozy Knit Jumper',
       price: '$690.00',
@@ -229,7 +229,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://i.pinimg.com/originals/e1/cf/16/e1cf16b3a0a42ec710a59c6cfdff6608.jpg',
+      img: 'https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/3/734f6b9A-PCF135_1.jpg?rnd=20200526195200&tr=w-512',
       brand: 'BRAND:GEEK',
       title: 'Textured Round Neck Pullover',
       price: '$710.00',
@@ -238,7 +238,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://d2r9epyceweg5n.cloudfront.net/stores/001/389/664/products/conjunto-pijama-infantil-menina-carters-4-pecas-monstrinhos-2i5546101-83671856634c6c424c16248199772305-1024-1024.jpg',
+      img: 'https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/c/1cde56bZZLPTRAIL4_1.jpg?rnd=20200526195200&tr=w-512',
       brand: 'BRAND:GEEK',
       title: 'Casual Hoodie',
       price: '$550.00',
@@ -247,7 +247,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'http://www.multibrandonline.ru/media/catalog/product/cache/1/image/800x900/08588bf74280018fbc121e4a26970187/1/_/1_jk-8142_enl.jpg',
+      img: 'https://www.mumkins.in/cdn/shop/files/boys-kurta-pajama-bs10ish01-sky-blue-1.jpg?v=1725517681&width=1080',
       brand: 'BRAND:GEEK',
       title: 'V-Neck Cardigan',
       price: '$650.00',
@@ -256,7 +256,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://i.pinimg.com/originals/11/d8/7f/11d87f8bbe7922207956760992b7ab5c.jpg',
+      img: 'https://cdn.pixelspray.io/v2/black-bread-289bfa/ofVBQK/original/edamamma-product/EST3KBSH71-10Y/665/EST3KBSH71-10Y_1_6031.webp',
       brand: 'BRAND:GEEK',
       title: 'Long Sleeve T-shirt',
       price: '$400.00',
@@ -265,7 +265,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'http://s7d3.scene7.com/is/image/JanieAndJack/100013548?req=tile&id=1oV9S0surdABNndqOyR2Wu&rect=0,0,800,900&scl=2&fmt=jpg',
+      img: 'https://cdn.fynd.com/v2/falling-surf-7c8bb8/fyprod/wrkr/products/pictures/item/free/original/000000410478470006/74-4Rwvwf6-000000410478470006_1.jpg',
       brand: 'BRAND:GEEK',
       title: 'Chunky Knit Sweater',
       price: '$750.00',
@@ -274,7 +274,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'http://www.multibrandonline.ru/media/catalog/product/cache/1/image/800x900/08588bf74280018fbc121e4a26970187/1/_/1_jk-49396_enl.jpg',
+      img: 'https://cdn.pixelspray.io/v2/black-bread-289bfa/ofVBQK/original/edamamma-product/EATTKBTS185-10Y/300/EATTKBTS185-10Y_1_4616.webp',
       brand: 'BRAND:GEEK',
       title: 'Woolen Pullover',
       price: '$700.00',
@@ -283,7 +283,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://i.pinimg.com/originals/9c/83/ab/9c83ab87aab2650141f7eeb10c69116c.jpg',
+      img: 'https://cdn.pixelspray.io/v2/black-bread-289bfa/ofVBQK/original/edamamma-product/EATTKBTS72-10Y/300/EATTKBTS72-10Y_1_1395.webp',
       brand: 'BRAND:GEEK',
       title: 'Fleece Sweatshirt',
       price: '$600.00',
@@ -292,7 +292,7 @@ function Sec3() {
       isNew: true
     },
     {
-      img: 'https://i.pinimg.com/originals/5d/88/23/5d882397078c855d3bb57e604124c30e.jpg',
+      img: 'https://cdn.fynd.com/v2/falling-surf-7c8bb8/fyprod/wrkr/products/pictures/item/free/original/000000410478395006/uUMO0a6bZ-000000410478395006_1.jpg',
       brand: 'BRAND:GEEK',
       title: 'Cozy Knit Jumper',
       price: '$720.00',
